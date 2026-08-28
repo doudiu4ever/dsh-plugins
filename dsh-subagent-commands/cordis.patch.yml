@@ -1,0 +1,8 @@
+# dsh-subagent-commands bundle patch: registers the /codex and /claudecode
+# slash commands. Applied as an insert over the profile root, so the command
+# plugin is loaded by the same package name the loader resolves from the
+# profile's node_modules.
+
+- insert:
+    - id: subagent-commands
+      name: 'dsh-subagent-commands'

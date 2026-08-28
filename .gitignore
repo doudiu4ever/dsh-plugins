@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# logs / os
+*.log
+.DS_Store
+
+# local build artifacts
+*.tsbuildinfo
