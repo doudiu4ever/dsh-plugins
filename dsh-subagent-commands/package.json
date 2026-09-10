@@ -1,6 +1,6 @@
 {
   "name": "dsh-subagent-commands",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH bundle: /codex and /claudecode slash commands that delegate a task to the configured Codex / Claude Code subagent providers",
   "type": "module",
   "main": "lib/index.js",
@@ -21,12 +21,10 @@
     "README.md"
   ],
   "license": "MIT",
-  "dependencies": {
-    "@deepseek-ai/dsh-llm": "^0.1.0-rc.6"
-  },
   "peerDependencies": {
-    "@deepseek-ai/dsh-commands": "^0.1.0-rc.6",
-    "@deepseek-ai/cordis": "^4.0.1"
+    "@deepseek-ai/dsh-commands": "^0.1.5-rc.1",
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/dsh-llm": "^0.1.5-rc.1"
   },
   "keywords": [
     "deepseek-harness",
